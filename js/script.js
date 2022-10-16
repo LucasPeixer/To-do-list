@@ -13,7 +13,7 @@ formulario.addEventListener("submit", evento =>{
     }
 
     if (!cadastroAtividade) {
-        alert('Favor preencher o campo!');
+        alert('Favor preencher o campooo!');
     }
     
     formulario.reset();
