@@ -32,7 +32,7 @@ function criarDadosDaAtividade() {
 }
 
 function gravarAtividade(cadastroAtividade){
-     listaTarefa.push(cadastroAtividade);
+    listaTarefa.push(cadastroAtividade);
 }
 
 
