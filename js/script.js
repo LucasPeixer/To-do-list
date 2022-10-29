@@ -22,6 +22,17 @@ formulario.addEventListener("submit", evento =>{
     console.log (listaTarefa);
 });
 
+window.onload = function () {
+    const logado = JSON.parse(window.sessionStorage.getItem('ConfirmacaoLogin'));
+
+    if (logado !== true){
+        window.location = 'login.html';
+    }else {
+        const nomeUsuario = window.sessionStorage.getItem('nomeUsuario');
+        alert("Seja bem vindo " + nomeUsuario + "!");
+    }
+};
+
 function criarDadosDaAtividade() {
     const titulo = inputAtividade.value;
     const atividade = {titulo, status: 'uncompleted'}
