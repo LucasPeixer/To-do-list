@@ -10,6 +10,7 @@ localizarLogin.addEventListener("submit", eventoLogin => {
 
     if (login === usuario_esperado && password === senha_esperado){
         window.sessionStorage.setItem('ConfirmacaoLogin','true');
+        window.sessionStorage.setItem('nomeUsuario', login )
         window.location = 'index.html';
     }else{
         window.sessionStorage.setItem('ConfirmacaoLogin','false');

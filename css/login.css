@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -19,13 +20,18 @@ body {
   text-shadow: 2px 2px 15px rgb(176 230 255);
   }
   .cor-btn{
+    font-family: "Poppins", sans-serif;
     background-color: #FF5100;
+    color: white;
+    font-size: 1.0em;
   }
 
   .cor-btn:hover {
-    background-color: #FF5100;
-    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: #fd8a54;;
+    color: #1a1a1a;
 }
+
 
   #login .container #login-row #login-column #login-box {
     margin-top: 120px;

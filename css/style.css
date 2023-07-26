@@ -27,6 +27,7 @@ body {
 header {
     text-shadow: 2px 2px 15px rgb(176, 230, 255);
     font-size: 1.2rem;
+    width: 100%;
 }
 
 header,
@@ -35,6 +36,10 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+header h1 {
+    position: absolute;
 }
 
 form input,
@@ -178,4 +183,30 @@ select {
 /* HELP CLASSES */
 .input-error {
     border: 1px solid red;
+}
+
+#verificado {
+    visibility: hidden;
+}
+
+.btn-sair-container{
+    display: flex;
+    justify-content: end;
+    width: 100rem;
+    height: 16rem;
+}
+
+.btn-sair-container button {
+    position: fixed;
+    background-color: #FF5100;
+    color: #f4f4f4;
+    border-radius: 0 0 5px 5px ;
+    border-style: hidden;
+    width: 7rem;
+}
+
+.btn-sair-container button:hover{
+    color: #1A1A1A;
+    background-color: #fd8a54;
+    border-color: transparent;
 }
